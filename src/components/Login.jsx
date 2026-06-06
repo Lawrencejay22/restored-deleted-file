@@ -4,9 +4,9 @@ function Login({ onLogin }) {
   return (
     <div className="login-container" style={{ display: 'flex', flexDirection: 'column', gap: '24px', alignItems: 'center' }}>
       <div className="glass-panel login-card" style={{ maxWidth: '520px', width: '100%' }}>
-        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '12px', marginBottom: '8px' }}>
+        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '12px', marginBottom: '8px', flexWrap: 'wrap' }}>
           <Trash2 size={32} color="var(--accent-color)" />
-          <h1 style={{ fontSize: '26px' }}>Google Drive Trash Manager</h1>
+          <h1 style={{ fontSize: '26px', margin: 0 }}>Google Drive Trash Manager</h1>
         </div>
         <p style={{ margin: '16px 0 24px', lineHeight: '1.6' }}>
           View, download, and recover files from your Drive Trash. Back up your active files locally so you can restore them even if they are permanently deleted from Google Drive.
