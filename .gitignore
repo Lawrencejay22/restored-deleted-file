@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+server/node_modules/
+
+# Production builds
+dist/
+
+# Env secrets
+.env
+.env.local
+server/.env
+
+# Local database / backups
+server/backups/*
+!server/backups/.gitkeep
+
+# System files
+.DS_Store
+Thumbs.db
