@@ -796,12 +796,12 @@ function Dashboard({ userProfile, accessToken, onLogout }) {
   const deletedFiles = files;
   const filteredDeletedFiles = sortFiles(
     deletedFiles.filter(file =>
-      file.name.toLowerCase().includes(searchQuery.toLowerCase())
+      (file.name || '').toLowerCase().includes(searchQuery.toLowerCase())
     )
   );
   const filteredActiveFiles = sortFiles(
     activeFiles.filter(file =>
-      file.name.toLowerCase().includes(searchQuery.toLowerCase())
+      (file.name || '').toLowerCase().includes(searchQuery.toLowerCase())
     )
   );
 
