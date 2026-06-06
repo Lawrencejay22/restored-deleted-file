@@ -2,7 +2,7 @@ import { useState, useEffect, useCallback } from 'react';
 import Login from './components/Login';
 import Dashboard from './components/Dashboard';
 
-const CLIENT_ID = '888567918479-oj26if3p94r6kru0vga9njaob9iql423.apps.googleusercontent.com';
+const CLIENT_ID = '888567918479-2u63brvod7o9g82t88pb2k7st8gtccu8.apps.googleusercontent.com';
 
 const SCOPES = [
   'https://www.googleapis.com/auth/drive',
